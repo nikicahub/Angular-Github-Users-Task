@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    min-height: 100vh;
+
+}
+
+.flHeading{
+    font-size: 25px;
+    font-weight: 300;
+}
+.form-control:focus {
+    border-color: #359669;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.025), 0 0 8px rgba(21, 95, 67, 0.6);
+  }
+
+fa-icon {
+    font-size: 30px;
+    color: #359669;
+
+    &:hover{
+        color: #fff;
+    }
+}
+
+.pagination-controls .current {
+    background: #359669 !important;
+  }
+  
